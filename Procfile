@@ -1,1 +1,1 @@
-web: mlflow models serve -m mlflow_model_pyfunc --no-conda
+web: mlflow models serve -m mlflow_model_pyfunc --no-conda -p $PORT --host 0.0.0.0
